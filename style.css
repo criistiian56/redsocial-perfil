@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    max-height: 70px;
+    background-color: rgb(62, 131, 242);
+    display: flex;
+    gap: 20px;
+    padding: 15px 100px;
+    margin: 0px auto;
+    align-items: center;
+    justify-content:space-between
+}
+
+header img{
+  border-radius: 4px;
+  padding: 5px;
+  width: 180px;
+}
+
+.buscador {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 3px;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+  .buscador input {
+    background: transparent;
+    border: none;
+    border-radius: 3px;
+    padding: 8px;
+    font-size: 16px;
+    width: 70%;
+    margin-right: 5px;
+  }
+
+body{
+    background-color: whitesmoke;
+}
+
+#contenedor1 {
+    background-color: white;
+    height: 49vh;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 70px 150px 40px 150px;
+    border-radius: 25px;
+    
+}
+
+#contenedor1 img{
+    border: 5px solid blue;
+    border-radius: 100%;
+    padding: 5px;
+    margin: 15px 10px 15px 10px;
+    width: 40vh;
+}
+
+#contenedor1 .lista-sin-simbolos {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+ .lista-sin-simbolos li {
+    margin: 0;
+    padding: 0 0 10px 0;
+  }
+
+#contenedor1 .articulo1 {
+    padding: 5px 70vh 5px 20px;
+}
+
+.boton-box{
+    padding-top: 20vh;
+}
+
+#contenedor1 button{
+    background-color: rgb(62, 131, 242);
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+#contenedor2{
+    background-color: green;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 70px 150px 40px 150px;
+}
+
+.articulo2 {
+    background-color: white;
+    height: auto;
+    width: 60%;
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    padding: 50px 0px 20px 0 20px;
+}
+
+.articulo2 img{
+    padding: 0;
+    margin: 15px 5px 15px 5px;
+    width: 80vh;
+}
+
+.meGusta {
+    display: flex;
+    justify-content: space-between;
+}
+
+.meGusta button{
+    background-color: whitesmoke;
+    border: none;
+    color: rgb(62, 131, 242);
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.ultimoComentario{
+    display: flex;
+    justify-content: space-between;
+}
+
+.botonEliminar{
+    background-color: whitesmoke;
+    border: none;
+    color: red;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.comentar {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 3px;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comentar input {
+    background: whitesmoke;
+    border: none;
+    border-radius: 3px;
+    padding: 8px;
+    font-size: 16px;
+    width: 70%;
+    margin-right: 5px;
+  }
+
+.articulo3 {
+    background-color: whitesmoke;
+    height: auto;
+    width: 30%;
+    padding: 40px;
+    border-radius: 25px;
+    
+}
